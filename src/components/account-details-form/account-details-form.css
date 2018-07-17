@@ -1,0 +1,53 @@
+.account-form {
+    background: none;
+}
+.text-width{
+    width: 95%;
+}
+.text-inline-width{
+    width: 95%;
+    margin-top: 5px;
+}
+.input-btn{
+    width: 96%;
+    padding: 8px ;
+    margin: 15px 0;
+}
+.account-form .disabled-input {
+    color: #545454;
+}
+.password-validate .form-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+  }
+.password-validate {
+    margin-top: 5px;
+}
+.cancel-link{
+    padding: 8px 0;
+}
+.form-btn{
+    display: inline-block;
+}
+.btn-flex{
+    display: flex;
+    flex: wrap;
+}
+.heading {
+    padding: 20px;
+}
+@media only screen and (min-width: 640px) { 
+    .account-form {
+        margin: auto;
+        padding-left:5%; 
+         width: 65%;
+        background: #424242;
+    }
+    .heading {
+        padding-left: 14%;
+        line-height: 2.5;
+    }
+    .input-btn{
+        width: 22%;
+        margin-right:25px;
+    }
+}

@@ -1,0 +1,102 @@
+.edit-form{
+    width: 92%;
+}
+.edit-device-heading {
+    padding: 1px 0 1px 10px;
+    background: #262626;
+}
+.form-input-wrapper {
+    margin: 0;
+    border-bottom: 1px solid #808080;
+    margin: 20px 10px 0 10px;
+    font-size: 20px;
+}
+form {
+    padding: 0;
+}
+.form-input {
+    margin: 0;
+}
+.input-label-color {
+    color: #808080;
+}
+.edit-form-input{
+    padding: 8px 8px;
+    width: 96%;
+    color: #808080;
+    border-bottom: 0;
+    font-size: 20px;
+}
+.edit-btn{
+    width: 100%;
+    font-size: 0.75rem;
+    padding: 14px;
+    margin-top: 20px;
+}
+.device-sub-heading {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.disabled-label{
+    color: #808080;
+}
+.button-wrapper {
+    padding-bottom: 40px;
+    margin: 20px 10px 0 10px;
+}
+.edit-primary-heading{
+    font-size: 1.25rem;
+}
+.edit-dropdown{
+    background-color: #424242;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.edit-cancel-btn{
+    padding: 14px 0;
+}
+@media only screen and (min-width: 640px) {
+    .edit-primary-heading {
+        margin-left: 10px;
+    }
+    .edit-form{
+        width: 55%;
+   }
+    .device-sub-heading {
+        padding-left: 30px;
+   }
+    .edit-btn{
+        width: 45%;
+        padding: 14px 0;
+   }
+    .input-label-width {
+        width: 30%;
+   }
+   .asset-no-width {
+       width: 13%;
+   }
+   .device-label-width {
+       width: 20%;
+   }
+    .button-wrapper {
+        margin: 40px 10px 0 20px;
+   }
+    .edit-dropdown{
+        width: 22%;
+        padding: 5px;
+        margin: 0 10px 5px 10px;
+   }
+    .edit-cancel-btn{
+        margin-left: 8%;
+   }
+    .edit-form .form-input-wrapper{
+        border-bottom: 1px solid #808080;
+        display: flex;
+        margin: 20px 20px 0 20px;
+   }
+    .form-input-wrapper label{
+        margin: 10px 0 0 10px;
+   }
+}

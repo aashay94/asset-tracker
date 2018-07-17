@@ -1,0 +1,134 @@
+.page-title {  
+    margin:0;
+}
+.mydevices-table {
+    width:100%;
+    margin:auto;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.table-content>tr:nth-of-type(odd) { 
+    background-color:#333 ; 
+} 
+.table-content>tr:nth-of-type(even) { 
+    background-color:#424242; 
+}
+.inner-table thead {
+    background-color:#333 ; 
+    color:#424242;
+}
+.innertable-content>tr {
+    background-color:#424242; 
+    color:#424242;
+}
+ li {
+    list-style-type: none;
+    margin:2%;
+}
+tr { 
+    border: 1px solid #505050; 
+    display:flex;
+    flex-direction: column;
+}
+td {
+    color: #c6c6c6;
+    width: 100%;
+    padding: 2%;
+    margin: 5px 0 14px 0;
+}
+.links a {
+    text-decoration: underline;
+}
+.link-icon {
+    width: 20px;
+    vertical-align: middle;
+}
+.icon { 
+    top:0;
+    right:0;
+}
+.circle-icon {
+    float: none;
+    left:83%;
+}
+.links span {
+    display: inline-block;
+}
+.inner-table {
+    width:100%;
+    border-collapse:collapse;
+}
+thead {
+    display:none;
+}
+.td-inner-table {
+    width:100%;
+}
+td:before {
+    margin-right:5%;
+    display:inline-block;
+}
+.status {
+    margin-bottom:25px;
+}
+.secondry-btn{
+    background-color: #378abf;
+    border-radius: 13px;
+    border: 1px solid #378abf;
+    text-align: center;
+}
+
+.for-before td:nth-child(1):before { content: "Asset no.:";       }
+.for-before td:nth-child(2):before { content: "Device:";          }
+.for-before td:nth-child(3):before { content: "Project Id:";      }
+.for-before td:nth-child(4):before { content: "Date of issue:";   }
+.for-before td:nth-child(5):before { content: "Return Date:";     }
+.for-before td:nth-child(6):before { content: "Manager:";         }
+.for-before td:nth-child(7):before { content: "Status:";          }
+
+td:before {
+    margin-left:20px;
+    color:#c6c6c6;
+}
+.active {
+    background-color:  #ff7300;
+}
+
+@media only screen and (min-width: 640px)
+{
+    .page-title {
+        margin: 28px 0 51px 10%;
+    }
+    .mydevices-table {
+        width:80%;
+        border-collapse: collapse;
+    }
+    tr {
+        flex-direction: row;
+    }
+    .circle-icon {
+        float: right;
+    }
+    .links span {
+        display:inline;
+    }
+    thead {
+        border: 1px solid #505050; 
+        display:flex;
+        flex-direction:row;
+        display: block;
+    }
+    th {
+        color:#838383;
+        width: 60%;
+        text-align: left;
+        padding: 2%;
+        margin: 5px 0 14px 0;
+    }
+    td {
+        width:60%;
+    }
+    td:before {
+        display:none;
+    }
+}

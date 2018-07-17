@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Signup Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Signup Page for Asset Tracker">
+	<link rel="stylesheet" type="text/css" href="../../styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/global.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/typography.css">
+	<link rel="stylesheet" type="text/css" href="../../components/form-title/form-title.css">
+	<link rel="stylesheet" type="text/css" href="../../components/signup-form/signup-form.css">
+	<link rel="stylesheet" type="text/css" href="../../components/footer/footer.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/login-signup.css">
+	<link rel="stylesheet" type="text/css" href="../../components/invalid-email-id/invalid-email-id.css">
+</head>
+
+<body>
+	<main class="login-signup-wrapper">
+		<div class="l-title-area" id="signupTitle"></div>
+		<div class="l-form-area" id="signupForm"></div>
+		<div id="invalidEmailForm" class="modal-hide"></div>
+	</main>
+	<footer></footer>
+	<script data-main="../../common/config" src="../../lib/require.js"></script>
+	<script>
+		require(['config'], function () {
+			require(['signup', 'formValidation']);
+		});
+	</script>
+</body>
+
+</html>

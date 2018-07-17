@@ -1,0 +1,42 @@
+.invalid-email-wrapper{
+    width: 90%;
+    margin: auto;
+    background: #424242;
+    margin-top: 125px;
+}
+.email-heading {
+    margin-top: 0;
+    padding: 10px 0 10px 10px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+.email-main {
+    font-size: 1.125rem;
+    padding: 0 15px 20px;
+}
+.main-content {
+    background: #424242;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.sub-content {
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+.btn-wrapper {
+    text-align: center;
+}
+.ok-btn {
+    text-align: center;
+    border-radius: 5px;
+    width: 55%;
+    padding: 14px 0;
+    border: none;
+}
+@media only screen and (min-width: 640px) {
+    .invalid-email-wrapper{
+        width: 35%;
+    }
+}

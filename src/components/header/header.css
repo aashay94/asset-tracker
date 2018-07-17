@@ -1,0 +1,72 @@
+header {
+    background-color:#ffffff ;
+    display: flex;
+    justify-content: space-between;
+}
+figure {
+    margin: 5px 0 5px 5px;
+ }
+.account-info {  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.account-name {
+    color:#000000;
+    width: 40%;
+}
+.account-name>figure {
+    width: 15%;
+}
+.dropdown-icon {    
+    margin-top: 17px;
+    position: relative;    
+    cursor: pointer;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    text-align: left;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 #000000;
+    padding: 12px 16px;
+    z-index: 1;
+    right:0;
+    display: none;
+  }
+.dropdown-icon img {
+    width:20px;
+    height: 15px;
+}
+.dropdown-content a {
+    color: #7e7b7b;  
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-icon:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.account-pic{
+    height: 30px;
+    width: 30px;
+}
+@media screen and (min-width:640px)
+{
+    header {
+        background:url("../../../assets/images/background-layer.png") no-repeat fixed top;
+        background-size:contain;
+    }
+   .header-logo {
+        text-align: center;
+        width:40%;
+    }
+   .account-info {  
+       text-align: right;
+       vertical-align: top;
+       width:50%;
+    }   
+}

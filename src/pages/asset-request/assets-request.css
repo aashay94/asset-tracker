@@ -1,0 +1,14 @@
+@media(min-width : 640px)
+{
+    .component-wrapper {
+        display: flex;
+    }
+    .table-area {
+    display: inline-block;
+    width: 80%;
+    }
+    .filter-area { 
+    display: inline-block;
+    width: 19%;
+    }
+}

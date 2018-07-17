@@ -1,0 +1,114 @@
+.logo-image{
+    padding-left: 108px;
+    height: 27px;
+}
+.sapient-name {
+    margin: auto;
+}
+.sapient-name span {
+    color:#bcb4b4;
+}
+.l-navigation{
+    background-image: url('../../../assets/images/header-mobile.jpg');
+}
+.nav-parent{
+    border: 1px solid #bcb4b4;
+  
+    width: 57%;
+    margin: 20px auto;
+}
+.nav-child, .manage-device-child{
+    display: none;
+    background:#1a1818;
+    border: 1px solid #bcb4b4;
+    width: 99%;
+}
+.nav-child{
+    text-align: left;
+    width: 56.5%;
+    position: absolute;
+}
+.manage-device-child{
+    background:#646161;
+}
+.nav-parent:hover .nav-child {
+    display: block;
+}
+.nav-parent a {
+    color:#757370;
+}
+.nav-child li{
+    border-bottom: 1px solid #bcb4b4;
+}
+.manage-device-parent:hover .manage-device-child{
+    display: block;
+}
+@media only screen and (min-width : 640px){
+    .nav-child li {
+        display:inline-block;
+        margin: 0;
+   }
+
+    .nav-parent .nav-child {
+        display: inline-block;
+        border: none;
+        text-transform: uppercase;
+        margin: 0;
+        position: static;
+   }
+    .l-navigation{
+        background: #000000;
+   }
+    .manage-device-child li{
+        display: block;
+        border: none;
+        background: #272626;
+        padding: 10px;
+   }
+    .manage-device-child li:hover{
+        background-color:#ff0000;
+   }
+    .nav-child li{
+        border-bottom: 1px solid #272626;
+        margin:0;
+   }
+    .nav-child{
+        width: 100%;
+        background: #272626;
+   }
+    .nav-parent{
+        border: none;
+        width: 65%;
+        margin: 0 0 0 35%;
+   }
+    .nav-tab{
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -ms-transform: skew(-20deg);
+        width: 19%;
+        font-size: 0.80rem;
+        background: #272626;
+   }
+    .nav-tab:hover{
+        border-bottom: 1px solid #da0707;
+        background: #423e3e;
+   }
+    .manage-device-parent{
+        position: relative;
+   }
+    .manage-device-child{
+        position:absolute;
+        border: none;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        box-shadow: 0px 5px 5px #000000;
+        left: 44px;
+   }
+    .nav-tab>a{
+        display: inline-block;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -ms-transform: skew(20deg);
+        margin: 7%;
+   }
+}

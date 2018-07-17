@@ -1,0 +1,44 @@
+.lost-device-form{
+    width: 90%;
+    padding: 16px 0px;
+}
+.lost-device-form-input,
+.error-msg-input
+{
+    padding: 10px 0;
+    width: 90%;
+    margin: 0 20px;
+}
+.btn-style {
+    width: 96%;
+    font-size: 0.75rem;
+    padding: 8px;
+    margin: 15px 5px;
+    text-transform: uppercase;
+    display: inline-block;   
+}
+.title-style{
+    margin: 0.5% 0 0 2.5%;
+}
+.button-wrapper{
+    display: block;
+}
+.error-msg-input{
+    padding: 10px 0;
+    width: 92%;
+    margin: 0 20px;
+}
+@media only screen and (min-width: 640px) {
+    .lost-device-form{
+        width: 60%;
+        margin: 20px auto 0;
+        padding: 16px 0px;
+    }
+    .btn-style{     
+        width: 35%;        
+        margin-left: 20px;
+   }
+   .title-style{
+       margin: 1% 0 0 20%;
+   }
+}

@@ -1,0 +1,36 @@
+{
+    "allocateddevices": [
+        {
+            "assetno": 101,
+            "device": "Iphone",
+            "pid": 131738,
+            "issuedate": "06/06/2017",
+            "returndate": "20/05/2018",
+            "manager": "Prithveesh"
+        },
+        {
+            "assetno": 102,
+            "device": "Ipad",
+            "pid": 131738,
+            "issuedate": "06/06/2017",
+            "returndate": "15/04/2018",
+            "manager": "Prithveesh"
+        },
+        {
+            "assetno": 104,
+            "device": "Macbook",
+            "pid": 131738,
+            "issuedate": "06/06/2017",
+            "returndate": "25/04/2018",
+            "manager": "Prithveesh"
+        },
+        {
+            "assetno": 105,
+            "device": "Alienware",
+            "pid": 131738,
+            "issuedate": "06/06/2017",
+            "returndate": "20/06/2018",
+            "manager": "Prithveesh"
+        }
+    ]
+}

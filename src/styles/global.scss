@@ -1,0 +1,174 @@
+//colors
+$white: #ffffff;
+$color_cape_cod_approx: #424242;
+$color_quill_gray_approx: #d3d3d3;
+$color_pink_swan_approx: #bcb4b4;
+$color_harlequin_approx: #39ca00;
+$color_alizarin_crimson_approx: #de2728;
+$color_concord_approx: #7b7d7d;
+$color_mexican_red_approx: #ae2728;
+$color_mercury_approx: #dfe5e6;
+$color_mine_shaft_approx: #333333;
+$color_pippin_approx: #ffe5e6;
+$color_persian_blue_approx: #2728de;
+$color_governor_bay_approx: #2728ae;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+    
+}
+//fonts
+$font_0: Sapient-Centro-Slab;
+
+//urls
+$url_0: url(../../assets/images/desktop-background-img.png);
+
+body {
+	background-image: $url_0;
+	background-size: cover;
+	font-family: $font_0;
+	font-size: 16px;
+	color: $white;
+}
+form {
+	background: $color_cape_cod_approx;
+	margin: 20px auto 0;
+	padding: 20px;
+	@include border-radius(5px);
+}
+.hidden {
+	border:  0;
+	clip: rect(0 0 0 0);
+	height:  1px;
+	margin:  -1px;
+	overflow:  hidden;
+	padding:  0;
+	position:  absolute;
+	width: 1px;
+}
+.form-input {
+	display: block;
+	margin: 20px 0;
+	background: transparent;
+	font-family: $font_0;
+	border-bottom: 1px solid $color_quill_gray_approx;
+}
+.nav-border {
+	border-bottom: 1px solid $color_pink_swan_approx;
+}
+.form-btn {
+	text-align: center;
+	@include border-radius(5px);
+}
+.action-btn {
+	line-height: 1.2;
+	text-align: center;
+	padding: 2px;
+	@include border-radius(5px);
+}
+.status-text {
+	text-align: center;
+	padding: 2px;
+	border: 1px solid $color_quill_gray_approx;
+}
+.accept-btn {
+	color: $color_harlequin_approx;
+}
+.decline-btn {
+	color: $color_alizarin_crimson_approx;
+}
+.text-white {
+	color: $white;
+}
+.text-gray {
+	color: $color_concord_approx;
+}
+.primary-btn {
+	background: $color_alizarin_crimson_approx;
+	color: $white;
+	&:hover {
+		background: $color_mexican_red_approx;
+		color: $white;
+	}
+}
+.link-btn {
+	background: $color_mercury_approx;
+	color: $color_mine_shaft_approx;
+	&:hover {
+		background: $color_pippin_approx;
+		color: $color_mine_shaft_approx;
+	}
+}
+.secondry-btn {
+	background: $color_persian_blue_approx;
+	color: $white;
+	&:hover {
+		background: $color_governor_bay_approx;
+		color: $white;
+	}
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-capitalize {
+	text-transform: capitalize;
+}
+.text-lighter {
+	font-weight: lighter;
+}
+.border-radius {
+	@include border-radius(5px);
+}
+.text-center {
+	text-align: center;
+}
+.mobile-inline {
+	display: inline;
+}
+.mobile-inline-block {
+	display: inline-block;
+}
+.mobile-block {
+	display: block;
+}
+.mobile-unset {
+	display: unset;
+}
+.hide-in-mobile {
+	display: none;
+}
+.input-opacity {
+	opacity: 0.8;
+}
+.position-relative {
+	position: relative;
+}
+.position-absolute {
+	position: absolute;
+}
+.max-width {
+	width: 100%;
+}
+@media only screen and(min-width: 640px) {
+	.hide-in-desktop {
+		display: none;
+	}
+	.desktop-inline {
+		display: inline;
+	}
+	.desktop-inline-block {
+		display: inline-block;
+	}
+	.desktop-block {
+		display: block;
+	}
+	.desktop-unset {
+		display: unset;
+	}
+}
+input:focus {
+	outline: none;
+}

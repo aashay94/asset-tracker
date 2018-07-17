@@ -1,0 +1,20 @@
+{
+  "name": "asset-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kchaw5@del.tools.publicis.sapient.com/bitbucket/scm/accjan/asset-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-sass": "^4.8.3"
+  }
+}

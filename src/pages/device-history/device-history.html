@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Device History</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Information about all devices used previously">
+	<link rel="stylesheet" type="text/css" href="../../styles/global.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/typography.css">
+	<link rel="stylesheet" type="text/css" href="../../components/header/header.css">
+	<link rel="stylesheet" type="text/css" href="../../components/navigation/navigation.css">
+	<link rel="stylesheet" type="text/css" href="../../components/device-history/device-history.css">
+	<link rel="stylesheet" type="text/css" href="../../components/footer/footer.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/requests-history-devices.css">
+</head>
+
+<body>
+
+	<header></header>
+	<div class="navigation" id="navigation"></div>
+	<div class="l-table-area" id="deviceHistoryTable"></div>
+	<footer></footer>
+	<script data-main="../../common/config" src="../../lib/require.js"></script>
+	<script>
+		require(['config'], function () {
+			require(['deviceHistory']);
+		})
+	</script>
+
+</body>
+
+</html>

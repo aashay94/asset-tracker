@@ -1,0 +1,71 @@
+{   "devicetitle":[ "ASSET NO", "DEVICE NAME", "DEVICE CONFIGURATION", "DETAILS"],
+    "childTitle":["Person Id","Date of issue","Return date","Product Id","Manager"],
+    "asset":"Asset No.",
+    "devicename":"Device Name",
+    "config":"Device Configuration",
+    "label":["Browser: ","Operating System:","Default Apps:"],
+    "details":"Details",
+    "personid":"Person Id",
+    "issue":"Date of issue",
+    "return":"Return Date",
+    "manager":"Manager",
+    "productid":"Product Id",
+    "usagelabel":["personid","issuedate","returndate","manager","pid"],
+    "device": [
+        {
+            "assetno": 101,
+            "type": "phone",
+            "name": "IPhone",
+            "request": "allocated",
+            "specs" : [
+                ["Chrome", "Safari"],
+                "IOS7",
+                ["Facetime", "Skype"]
+            ] 
+        },
+        {
+            "assetno": 102,
+            "type": "tablet",
+            "name": "IPad",
+            "request": "pending",
+            "specs" : [
+                 ["Chrome", "Safari", "Opera"],
+                 "IOS7",
+                 ["Whatsapp", "Skype"]                
+            ]
+        },
+        {
+            "assetno": 103,
+            "type": "tablet",
+            "name": "Tablet",
+            "request": "allocated",
+            "specs" : [
+                ["Chrome", "Safari", "Mozilla"],
+                "Android",
+                 ["Appstore", "Skype"]                
+            ]
+        },
+        {
+            "assetno": 104,
+            "type": "computer",
+            "name": "MacBook",
+            "request": "pending",
+            "specs":
+            [    ["Chrome", "Safari", "Opera"],
+                 "IOS9",
+                 ["Notepad", "Skype"]
+            ]
+        },
+        {
+            "assetno": 105,
+            "type": "computer",
+            "name": "Alienware",
+            "request": "denied",
+            "specs":
+            [   ["Chrome", "Safari", "Opera"],
+                "IOS9",
+                ["Notepad", "Skype"]
+            ]
+        }
+    ]
+}

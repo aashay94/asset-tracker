@@ -1,0 +1,117 @@
+.main-table{
+    font-size: 0.8em;
+}
+tr:nth-of-type(odd) { 
+    background-color:#333 ; 
+}
+.manage-device-wrapper{
+        margin: 70px 100px auto;
+}
+.heading{
+    margin-bottom: 25px;
+}
+tr{
+    background: #424242;
+}
+th,td{
+    overflow: hidden;
+    display: block;
+    border: none;
+}
+table, thead, tbody,tr { 
+    display: block; 
+    border: none;
+}
+.list-style{
+    list-style-type: none;
+    width: 10%;
+    display: inline-block;
+}
+.manage-device-wrapper{
+    width: 90%;
+    margin-left: 20px;
+}
+.list-style li{
+    display: block;
+    line-height: 1.2;
+}
+.edit-visible{
+    display: block;
+}
+.main-body>tr>td:nth-child(4){
+    top: 0px;
+    position: absolute;
+    right: 0px;
+}
+.main-table-row{
+    position: relative;
+}
+.manage-device-wrapper .heading-upper {
+    background: #292929;
+}
+.btn-wrapper{
+    top: 0px;
+    position: absolute;
+    right: 0px;
+}
+td:before {
+    padding-right: 10px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+thead{ 
+    display: none;
+}
+td{ 
+    position: relative;
+    color: #c6c6c6;
+}
+td:nth-of-type(1):before { content: "Asset no"}
+td:nth-of-type(2):before { content: "Device Name"}
+td:nth-of-type(3):before { content: "Device Configuration"}
+td:nth-of-type(4):before { display: "inline"}
+
+@media only screen and (min-width: 480px){
+    table, thead, tbody, th, td, tr { 
+        display: unset;
+    }
+    tr{
+        display: flex;
+    }
+    th{
+        text-align: center;
+        width: 24%;
+        margin: 16px 5px 10px;
+        color: white; 
+        font-weight: bold; 
+    }
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+    .btn-wrapper{
+        position: relative;
+        left: 13%;
+        top: 15px;
+    }
+    .list-style{
+        list-style-type: none;
+        width: 51%;
+        display: inline-block;
+    }
+    td { 
+        width: 24%;
+        margin: 5px 0 10px;
+        text-align:center; 
+    }
+    .manage-device-wrapper{
+        margin: 70px 100px auto;
+    }
+    .list-style li{
+        line-height: 1.2;
+    }
+    td:before {
+        display: none;
+    }
+} 

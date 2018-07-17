@@ -1,0 +1,36 @@
+<form method="POST" action="/src/pages/manage-devices/manage-devices.html" name="editDeviceForm" class="edit-form text-white" autocomplete="off">
+    <div class="edit-device-heading">
+        <p class="edit-primary-heading text-uppercase">Edit Device</p>
+    </div>
+    <div class="form-input-wrapper">
+        <label class="input-label input-label-color asset-no-width" for="assetNo">Asset No :</label>
+        <input type="text" placeholder="101" value="assetNo" name="assetNo" class="form-input edit-form-input" id="assetNo" disabled/>
+    </div>
+    <div class="form-input-wrapper">
+        <label class="input-label input-label-color device-label-width" for="deviceName">Device Name :</label>
+        <input type="text" placeholder="Tablet" value="deviceName" name="deviceName" class="form-input edit-form-input" id="deviceName"
+            disabled/>
+    </div>
+    <p class="device-sub-heading">Device Configuration</p>
+    <div class="form-input-wrapper">
+        <label class="input-label mobile-inline-block input-label-width" for="deviceBrowser">Browser :</label>
+        <input type="text" placeholder="Chrome" value="browser" name="browser" class="form-input edit-form-input" id="deviceBrowser"
+        />
+    </div>
+    <div class="form-input-wrapper">
+        <label class="input-label mobile-inline-block input-label-width" for="operatingSystem">Operating System :</label>
+        <input type="text" placeholder="IOS7" value="operatingSystem" name="operatingSystem" class="form-input edit-form-input" id="operatingSystem"
+        />
+    </div>
+    <div class="form-input-wrapper">
+        <label class="input-label mobile-inline-block input-label-width" for="defaultApplications">Default Application :</label>
+        <input type="text" placeholder="Undefined" value="defaultApplications" name="defaultApplications" class="form-input edit-form-input"
+            id="defaultApplications" />
+    </div>
+    <div class="button-wrapper">
+        <input type="submit" value="Submit" id="submitBtn" class="form-btn primary-btn text-uppercase mobile-inline-block edit-btn"
+        />
+        <input type="submit" value="Cancel" id="cancelBtn" class="form-btn primary-btn text-uppercase mobile-inline-block edit-cancel-btn edit-btn"
+        />
+    </div>
+</form>

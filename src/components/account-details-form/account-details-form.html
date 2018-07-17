@@ -1,0 +1,29 @@
+<h1 class="heading">account details</h1>
+<form action="../src/pages/dashboard/dashboard.html" method="POST" name="accountDetailsForm" id="accountForm" class="account-form">
+    <label class="hidden" for="accountName">Account Name</label>
+    <input type="text" value="Stephanie Austria" name="accountName" id="accountName" class="form-input input-opacity text-width disabled-input"
+        disabled/>
+    <label class="hidden" for="accountId">Account Id</label>
+    <input type="text" value="103465" name="accountId" id="accountId" class="form-input input-opacity text-width disabled-input" disabled/>
+    <label class="hidden" for="accountEmail">Account Email</label>
+    <input type="email" value="Saustria@sapient.com" name="accountEmail" id="accountEmail" class="form-input input-opacity text-width disabled-input"
+        disabled/>
+    <label class="hidden" for="accountPosition">Account Position</label>
+    <input type="text" value="Manager-Project Management" name="accountPosition" id="accountPosition" class="form-input input-opacity text-width disabled-input"
+        disabled/>
+    <label class="hidden" for="accountAddress">Account Address</label>
+    <input type="text" value="Seat #44, Aksh Block GR Tech Park, Banglore." name="accountAddress" id="accountAddress" class="form-input input-opacity text-width disabled-input"
+        disabled/>
+    <label class="hidden" for="accountPassword">Account Password</label>
+    <div class="btn-flex">
+        <input type="password" placeholder="Old Password" name="accountPassword" id="accountPassword" class="form-input text-inline-width disabled-input" autocomplete="off">
+        <i class="edit icon" id="editImage"></i>
+    </div>
+        <label class="hidden" for="newPassword">New Password</label>
+        <input type="password" placeholder="New Password" name="newPassword" id="newPassword" class="form-input text-width modal-hide password-validate" autocomplete="off">
+        <label class="hidden" for="retypePassword">Re-type Password</label>
+        <input type="password" placeholder="Re-type Password" name="retypePassword" id="retypePassword" class="form-input text-width modal-hide password-validate" autocomplete="off">
+    <input type="submit" id="updateBtn" value="Update" class="form-btn primary-btn input-btn icon"/ disabled>
+    <input type="submit" id="cancelBtn" value="Cancel" class="form-btn primary-btn input-btn cancel-link icon"/>
+    <span id="message" class="bad-status"></span>
+</form>

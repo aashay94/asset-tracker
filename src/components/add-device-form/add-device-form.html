@@ -1,0 +1,41 @@
+<h1 class="heading">
+    add device</h1>
+<form method="POST" action="../../pages/manage-devices/manage-devices.html" name="addDeviceForm" class="account-form" autocomplete="off">
+
+    <label class="hidden" for="serialNumber">Serial Number</label>
+    <input type="text" id="serialNumber" name="serialNumber" class="form-input input-field  validate" placeholder="Serial Number"
+        maxlength="4" required />
+    <span class="error-message-input"></span>
+
+    <label class="hidden" for="assetNumber">Asset Number</label>
+    <input type="text" id="assetNumber" name="assetNumber" class="form-input input-field  validate" placeholder="Asset Number"
+        maxlength="3" required/>
+    <span class="error-message-input"></span>
+
+    <label class="hidden" for="deviceType">Device Type</label>
+    <input type="text" id="deviceType" name="deviceType" class="form-input input-field  validate" placeholder="Device Type" required/>
+    <span class="error-message-input"></span>
+
+    <label class="hidden" for="operatingSystem">OS</label>
+    <input type="text" id="operatingSystem" name="operatingSystem" class="form-input input-field  validate" placeholder="OS"
+        required/>
+    <span class="error-message-input"></span>
+
+    <label class="hidden" for="defaultApplications">Default Applications</label>
+    <input type="text" id="defaultApplications" name="defaultApplications" class="form-input input-field validate" placeholder="Default Applications"
+    />
+    <span class="error-message-input"></span>
+
+    <div class="group-dropdown">
+        <label for="browser" class="browser-container">Browser</label>
+        <select id="browser" class="add-dropdown">
+            <option value="Chrome">Chrome</option>
+            <option value="Chrome">Safari</option>
+            <option value="Opera">Opera</option>
+            <option value="IE 11">IE 11</option>
+        </select>
+    </div>
+    <input type="submit" value="Submit" class="form-btn primary-btn input-btn">
+    <input type="button" value="Cancel" class="form-btn primary-btn input-btn">
+
+</form>

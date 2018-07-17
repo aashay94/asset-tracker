@@ -1,0 +1,18 @@
+.l-form-area form {
+    background: none;
+}
+@media only screen and (min-width: 640px) {
+    .login-signup-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .l-title-area {
+        margin-top : 200px;
+        width: 30%;
+    }
+    .l-form-area {
+        margin-top: 200px;
+        width: 30%;
+    }
+}

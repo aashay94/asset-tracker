@@ -1,0 +1,40 @@
+.filter-check {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    opacity: 0;
+}
+.filter-head { 
+    background: #de2728;
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+    font-family: Sapient-Centro-Slab;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.filter-wrapper{
+    margin-left:10px; 
+}
+.filter-item {
+    position: relative;
+}
+.custom-check{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #606060;
+    z-index: -2;
+    left: 1px;
+    top: 0px;
+}
+.checked-box > .checked-display {
+    width: 18px;
+    height: 18px;
+    margin: 3px;
+    background: #606060;
+}
+@media(min-width : 640px){
+    .filter-section{
+        margin: 15px 0px;
+    }
+}

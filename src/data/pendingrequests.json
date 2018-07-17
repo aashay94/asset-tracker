@@ -1,0 +1,40 @@
+{
+    "pendingrequests": [
+        {
+            "assetno": 101,
+            "type": "phone",
+            "name": "IPhone",
+            "os": "IOS7",
+            "defaultapps": ["Facetime", "Skype"],
+            "browser": ["Chrome", "Safari"],
+            "status": "pending"
+        },
+        {
+            "assetno": 102,
+            "type": "tablet",
+            "name": "IPad",
+            "os": "IOS7",
+            "defaultapps": ["Whatsapp", "Skype"],
+            "browser": ["Chrome", "Safari", "Opera"],
+            "status": "denied"
+        },
+        {
+            "assetno": 103,
+            "type": "tablet",
+            "name": "Tablet",
+            "os": "Android",
+            "defaultapps": ["Appstore", "Skype"],
+            "browser": ["Chrome", "Safari", "Mozilla"],
+            "status": "pending"
+        },
+        {
+            "assetno": 105,
+            "type": "computer",
+            "name": "Alienware",
+            "os": "Windows10",
+            "defaultapps": ["Notepad", "Skype"],
+            "browser": ["Chrome", "Opera", "Mozilla"],
+            "status": "pending"
+        }
+    ]
+}

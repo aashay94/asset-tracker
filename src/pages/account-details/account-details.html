@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Account Details</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="See user profile, edit password">
+	<link rel="stylesheet" type="text/css" href="../../styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/global.css">
+	<link rel="stylesheet" type="text/css" href="../../components/header/header.css">
+	<link rel="stylesheet" type="text/css" href="../../components/navigation/navigation.css">
+	<link rel="stylesheet" type="text/css" href="../../components/account-details-form/account-details-form.css">
+	<link rel="stylesheet" type="text/css" href="../../components/footer/footer.css">
+	<link rel="stylesheet" type="text/css" href="account-details.css">
+
+</head>
+
+<body>
+	<header></header>
+	<div class="navigation" id="navigation"></div>
+	<div class="form-area" id="accountDetailsForm"></div>
+	<footer></footer>
+	<script data-main='../../common/config' src="../../lib/require.js"></script>
+	<script>
+		require(['config'], function () {
+			require(['accountDetails']);
+		})
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+.upcoming-device-form {
+    width: 70%;
+}
+
+.upcoming-device-title {
+    padding: 20px;
+    color: #ffffff;
+    margin: auto;
+    width: 70%;
+}
+
+.input-text {
+    width: 100%;
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+.browser-title {
+    color: #d3d3d3;
+    font-size: 1rem;
+    background: transparent;
+    width: 90%;
+    margin-right: 40px;
+}
+
+.group-dropdown {
+    padding-left: 0;
+    margin-right: 5px;
+}
+
+.browser-container {
+    color: #d3d3d3;
+    margin-right: 40px;
+}
+
+.add-dropdown {
+    margin-top: 5px;
+    width: 100%;
+    background: #424242;
+    color: #d3d3d3;
+}
+
+.upcoming-device-btn {
+    padding: 8px;
+    width: 94%;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+select {
+    color: #d3d3d3;
+}
+
+option {
+    background: #424242
+}
+@media only screen and (min-width: 480px) {
+    .upcoming-device-btn {
+        display: inline-block;
+        margin: 20px 5px;
+        width: 35%;
+    }
+    .add-dropdown {
+        margin-left: 10px;
+        width:10%;
+    }
+}

@@ -1,0 +1,36 @@
+{
+	"admin": [{
+			"fname": "John Cena",
+			"image": "",
+			"oracleid": 121234,
+			"email": "jcena@sapient.com",
+			"phone": 9740585275,
+			"jobtitle": "Vice President",
+			"imgPath": "../../../assets/images/jcena.jpg",
+			"location": "Boston",
+			"password": "12345"
+		},
+		{
+			"fname": "Steve Rogers",
+			"image": "",
+			"oracleid": 121234,
+			"email": "srogers@sapient.com",
+			"phone": 9876543210,
+			"jobtitle": "President",
+			"imgPath": "../../../assets/images/srogers.jpg",
+			"location": "California",
+			"password": "54321"
+		},
+		{
+			"fname": "Cristiano Ronaldo",
+			"image": "",
+			"oracleid": 777777,
+			"email": "cronaldo@sapient.com",
+			"phone": 9740586123,
+			"jobtitle": "Chief Executive Officer",
+			"imgPath": "../../../assets/images/cronaldo.jpg",
+			"location": "Madrid",
+			"password": "77777"
+		}
+	]
+}

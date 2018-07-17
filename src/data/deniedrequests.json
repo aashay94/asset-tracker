@@ -1,0 +1,28 @@
+{
+    "deniedrequests": [
+        {
+            "assetno": 102,
+            "type": "tablet",
+            "name": "IPad",
+            "os": "IOS7",
+            "defaultapps": ["Whatsapp", "Skype"],
+            "browser": ["Chrome", "Safari", "Opera"]
+        },
+        {
+            "assetno": 103,
+            "type": "tablet",
+            "name": "Tablet",
+            "os": "Android",
+            "defaultapps": ["Appstore", "Skype"],
+            "browser": ["Chrome", "Safari", "Mozilla"]
+        },
+        {
+            "assetno": 104,
+            "type": "computer",
+            "name": "MacBook",
+            "os": "IOS9",
+            "defaultapps": ["Notepad", "Skype"],
+            "browser": ["Chrome", "Safari", "Opera"]
+        }
+    ]
+}

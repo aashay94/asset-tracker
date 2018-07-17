@@ -1,0 +1,195 @@
+@import url("sprite.css");
+body {
+    background-image: url("../../assets/images/desktop-background-img.png");
+    background-size: cover;
+    font-family: Sapient-Centro-Slab;
+    font-size: 16px;
+    color: #ffffff;
+}
+form {
+    background: #424242;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+input[type=text],input[type=password],input[type=number],input[type=email]{
+    color:#ffffff;
+}
+input:focus {
+    outline: none;
+}
+.icon {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.heading {
+    color: #e9e9e9;
+    text-transform: uppercase;
+}
+.form-input {
+    display: block;
+    margin: 20px 0;
+    background: transparent;
+    font-family: Sapient-Centro-Slab;
+    border-bottom: 1px solid #d3d3d3;
+}
+.nav-border {
+    border-bottom: 1px solid #bcb4b4 ;
+}
+.form-btn {
+    text-align: center;
+    border-radius: 5px;
+}
+.action-btn {
+    line-height: 1.2;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+}
+.status-text {
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #d3d3d3;
+}
+.good-status {
+    color: #39ca00;
+}
+.bad-status {
+    color: #de2728;
+}
+.text-white {
+    color: #ffffff;
+}
+.text-gray {
+    color: #7b7d7d ;
+}
+.primary-btn {
+    background: #de2728;
+    color: #ffffff;
+}
+.primary-btn:hover {
+    background: #ae2728;
+    color: #ffffff;
+}
+.link-btn {
+    background: #dfe5e6;
+    color: #333333;
+}
+.link-btn:hover {
+    background: #ffe5e6;
+    color: #333333;
+}
+.secondry-btn {
+    background: #2728de;
+    color: #ffffff;
+}
+.secondry-btn:hover {
+    background: #2728ae;
+    color: #ffffff;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.text-lighter {
+    font-weight: lighter;
+}
+.border-radius {
+    border-radius: 5px;
+}
+.text-center {
+    text-align: center;
+}
+.mobile-inline {
+    display: inline;
+}
+.mobile-inline-block {
+    display: inline-block;
+}
+.mobile-block {
+    display: block;
+}
+.mobile-unset {
+    display: unset;
+}
+.hide-in-mobile {
+    display: none;
+}
+.input-opacity {
+    opacity: 0.8;
+}
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.max-width {
+    width: 100%;
+}
+.modal-hide{
+    display: none;
+}
+.modal-z-index{
+    position: fixed;
+    z-index: 1;
+    padding-top: 110px;
+    left: 0;
+    top: 0;   
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.invalid-modal-index{
+    position: fixed;
+    z-index: 1;
+    left: 5%;
+    top: 5%;   
+    width: 100%;
+    overflow: auto;
+}
+.opacity{
+    opacity: 0.2;
+}
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.hidden{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width:1px;
+}
+.error-message-hide{
+visibility: hidden;
+}
+@media only screen and (min-width: 640px) {
+    .hide-in-desktop {
+        display: none;
+   }
+    .desktop-inline {
+        display: inline;
+   }
+    .desktop-inline-block {
+        display: inline-block;
+   }
+    .desktop-block {
+        display: block;
+   }
+    .desktop-unset {
+        display: unset;
+   }
+   .invalid-modal-index{
+       left: 30%; 
+   }
+}

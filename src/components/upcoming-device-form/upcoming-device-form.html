@@ -1,0 +1,28 @@
+<h1 class="upcoming-device-title heading">
+    upcoming device</h1>
+<form method="POST" action="../../pages/manage-devices/manage-devices.html" class="upcoming-device-form" name="upcomingDevice" autocomplete="off">
+    <label for="deviceType" class="hidden">Device type</label>
+    <input class="input-text form-input validate" type="text" id="deviceType" name="deviceType" placeholder="Device Type" />
+    <span class="error-msg-input"> </span>
+    <label for="deviceName" class="hidden">Device name</label>
+    <input class="form-input input-text validate" type="text" id="deviceName" name="deviceName" placeholder="Device Name" />
+    <span class="error-msg-input"> </span>
+    <label for="os" class="hidden">Os</label>
+    <input class="form-input input-text validate" type="text" id="os" name="os" placeholder="OS" />
+    <span class="error-msg-input"> </span>
+    <label for="defaultApplications" class="hidden">Default Applications</label>
+    <input class="form-input input-text validate" type="text" id="defaultApplications" name="defaultApplications" placeholder="Default Applications">
+    <span class="error-msg-input"> </span>
+    <div class="group-dropdown">
+        <label for="browser" class="browser-container">Browser</label>
+        <select id="browser" class="add-dropdown">
+            <option value="Chrome">Chrome</option>
+            <option value="Chrome">Safari</option>
+            <option value="Opera">Opera</option>
+            <option value="IE 11">IE 11</option>
+        </select>
+    </div>
+
+    <input type="submit" value="submit" class="form-btn primary-btn upcoming-device-btn" />
+    <input type="button" value="cancel" class="form-btn primary-btn upcoming-device-btn" />
+</form>

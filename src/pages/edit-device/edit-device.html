@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Edit Device</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Make changes to a present device">
+	<link rel="stylesheet" type="text/css" href="../../styles/global.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../components/header/header.css">
+	<link rel="stylesheet" type="text/css" href="../../components/edit-device-form/edit-device-form.css">
+	<link rel="stylesheet" type="text/css" href="../../components/footer/footer.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/edit-device.css">
+</head>
+<body>
+	<div id="editDeviceForm"></div>
+	<script data-main="../../common/config" src="../../lib/require.js"></script>
+	<script>
+		require(['config'], function () {
+			require(['editDevice']);
+		});
+	</script>
+</body>
+</html>
